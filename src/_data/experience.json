@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Senior AI Engineer",
+    "company": "AI Solutions Inc.",
+    "period": "2020 - Present",
+    "description": "Leading the development of machine learning models and AI systems for enterprise clients across various industries.",
+    "achievements": [
+      "Designed and deployed a transformer-based NLP system that improved customer service response accuracy by 35%",
+      "Led a team of 5 engineers in developing an end-to-end computer vision pipeline for manufacturing defect detection",
+      "Implemented MLOps best practices that reduced model deployment time by 60%",
+      "Created an internal training program on deep learning techniques, training over 30 colleagues"
+    ]
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Tech Innovations Lab",
+    "period": "2018 - 2020",
+    "description": "Developed and optimized machine learning algorithms for predictive analytics applications.",
+    "achievements": [
+      "Built recommendation systems using collaborative filtering and deep learning techniques",
+      "Improved model inference speed by 40% through optimization and quantization techniques",
+      "Collaborated with data engineering team to develop efficient data pipelines for ML workflows",
+      "Published a research paper on efficient transformer models at NeurIPS 2019"
+    ]
+  },
+  {
+    "title": "Data Scientist",
+    "company": "DataCorp Analytics",
+    "period": "2016 - 2018",
+    "description": "Analyzed large datasets to extract insights and build predictive models for business decision making.",
+    "achievements": [
+      "Created time series forecasting models that improved inventory management efficiency by 25%",
+      "Developed classification algorithms to detect fraudulent activities, saving the company $2M annually",
+      "Built interactive dashboards using Python and D3.js to visualize complex data patterns"
+    ]
+  }
+]

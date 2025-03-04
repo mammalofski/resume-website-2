@@ -1,0 +1,37 @@
+<section id="projects" class="projects-section mb-16 scroll-mt-16 reveal-section">
+  <h2 class="section-title text-2xl font-display font-bold mb-6 after:content-[''] after:block after:w-16 after:h-1 after:bg-neutral-900 after:dark:bg-white after:mt-2">Projects</h2>
+  
+  <div class="projects-list grid grid-cols-1 md:grid-cols-2 gap-6">
+    {% for project in projects %}
+      <div class="project-item border border-neutral-200 dark:border-neutral-800 rounded-lg p-5 transition-all duration-300 hover:shadow-md dark:hover:shadow-neutral-800">
+        <h3 class="text-xl font-semibold mb-2">{{ project.title }}</h3>
+        <div class="tags-list flex flex-wrap gap-2 mb-3">
+          {% for tag in project.tags %}
+            <span class="tag text-xs font-medium bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        <p class="text-neutral-700 dark:text-neutral-300 mb-4">{{ project.description }}</p>
+        
+        <div class="project-links flex space-x-3">
+          {% if project.demo %}
+            <a href="{{ project.demo }}" class="text-sm font-medium hover:underline flex items-center gap-1" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+              Demo
+            </a>
+          {% endif %}
+          {% if project.github %}
+            <a href="{{ project.github }}" class="text-sm font-medium hover:underline flex items-center gap-1" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              GitHub
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

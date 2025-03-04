@@ -1,0 +1,16 @@
+<section id="skills" class="skills-section mb-12 scroll-mt-16 reveal-section">
+  <h2 class="section-title text-2xl font-display font-bold mb-6 after:content-[''] after:block after:w-16 after:h-1 after:bg-neutral-900 after:dark:bg-white after:mt-2">Skills</h2>
+  
+  <div class="skills-content">
+    {% for category in skills %}
+      <div class="skill-category mb-8">
+        <h3 class="text-lg font-semibold mb-3">{{ category.title }}</h3>
+        <div class="skills-list flex flex-wrap gap-2">
+          {% for skill in category.items %}
+            <span class="skill-pill bg-neutral-100 dark:bg-neutral-800 px-3 py-1.5 rounded text-sm font-medium">{{ skill }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

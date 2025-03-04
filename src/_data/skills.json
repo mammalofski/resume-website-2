@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Programming Languages",
+    "items": ["Python", "JavaScript", "TypeScript", "C++", "SQL", "R"]
+  },
+  {
+    "title": "Machine Learning & AI",
+    "items": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "ONNX", "Hugging Face", "Computer Vision", "NLP", "Reinforcement Learning"]
+  },
+  {
+    "title": "Data Science",
+    "items": ["Pandas", "NumPy", "Data Visualization", "Data Analysis", "Statistical Modeling", "Feature Engineering"]
+  },
+  {
+    "title": "Cloud & DevOps",
+    "items": ["AWS", "GCP", "Docker", "Kubernetes", "CI/CD", "MLOps", "Terraform"]
+  },
+  {
+    "title": "Web Development",
+    "items": ["HTML/CSS", "React", "Node.js", "Eleventy", "REST APIs", "GraphQL"]
+  },
+  {
+    "title": "Soft Skills",
+    "items": ["Problem Solving", "Research", "Technical Writing", "Team Leadership", "Project Management", "Communication"]
+  }
+]

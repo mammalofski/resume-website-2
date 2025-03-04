@@ -1,0 +1,20 @@
+[
+  {
+    "degree": "Ph.D. in Computer Science",
+    "institution": "Stanford University",
+    "period": "2013 - 2016",
+    "description": "Specialized in Machine Learning and Artificial Intelligence. Thesis on 'Efficient Deep Learning for Computer Vision Applications'."
+  },
+  {
+    "degree": "M.S. in Artificial Intelligence",
+    "institution": "Massachusetts Institute of Technology",
+    "period": "2011 - 2013",
+    "description": "Focus on Neural Networks and Natural Language Processing"
+  },
+  {
+    "degree": "B.S. in Computer Science",
+    "institution": "University of California, Berkeley",
+    "period": "2007 - 2011",
+    "description": "Minor in Mathematics. Graduated with honors."
+  }
+]

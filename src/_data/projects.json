@@ -1,0 +1,28 @@
+[
+  {
+    "title": "NeuralVision",
+    "description": "An advanced computer vision system for real-time object detection and classification with 99.3% accuracy using custom transformer architecture.",
+    "tags": ["Computer Vision", "PyTorch", "C++", "CUDA"],
+    "github": "https://github.com/johndoe/neural-vision",
+    "demo": "https://neural-vision-demo.example.com"
+  },
+  {
+    "title": "SmartTextAI",
+    "description": "Natural language processing library for semantic text analysis, summarization, and generation using transformer models.",
+    "tags": ["NLP", "TensorFlow", "Python", "Docker"],
+    "github": "https://github.com/johndoe/smarttext-ai"
+  },
+  {
+    "title": "MLOps Pipeline Framework",
+    "description": "End-to-end framework for automating machine learning workflows from training to deployment with monitoring and versioning.",
+    "tags": ["MLOps", "Kubernetes", "Python", "AWS"],
+    "github": "https://github.com/johndoe/mlops-pipeline",
+    "demo": "https://mlops-docs.example.com"
+  },
+  {
+    "title": "AI Ethics Toolkit",
+    "description": "Open-source library for evaluating bias, fairness, and transparency in machine learning models.",
+    "tags": ["AI Ethics", "Python", "Visualization", "Jupyter"],
+    "github": "https://github.com/johndoe/ai-ethics-toolkit"
+  }
+]

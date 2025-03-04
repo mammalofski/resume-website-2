@@ -1,0 +1,28 @@
+{
+  "name": "resume-website-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p dev:*",
+    "build": "npm-run-all build:css build:eleventy",
+    "dev:css": "postcss src/assets/css/styles.css -o _site/assets/css/styles.css --watch",
+    "dev:eleventy": "eleventy --serve",
+    "build:css": "postcss src/assets/css/styles.css -o _site/assets/css/styles.css --env production",
+    "build:eleventy": "cross-env NODE_ENV=production eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Modern black-and-white resume website for an AI Engineer built with Eleventy",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.17",
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.0.1",
+    "tailwindcss": "^3.4.1"
+  }
+}

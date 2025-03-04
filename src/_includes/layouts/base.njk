@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | AI Engineer Resume</title>
+  <meta name="description" content="{{ description or 'Professional resume of an AI Engineer showcasing expertise in machine learning, software development, and artificial intelligence.' }}">
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="{{ title }} | AI Engineer Resume">
+  <meta property="og:description" content="{{ description or 'Professional resume of an AI Engineer showcasing expertise in machine learning, software development, and artificial intelligence.' }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/images/profile-thumbnail.jpg">
+  
+  <!-- Preload fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Load styles -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  
+  <!-- Dark mode script -->
+  <script>
+    // Check for dark mode preference
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
+</head>
+<body class="font-sans bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white transition-colors duration-300">
+  <div class="layout-wrapper max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    {% include "partials/header.njk" %}
+    
+    <main class="content py-8" id="main-content">
+      {{ content | safe }}
+    </main>
+    
+    {% include "partials/footer.njk" %}
+  </div>
+  
+  <!-- Scripts -->
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

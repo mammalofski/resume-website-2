@@ -1,0 +1,12 @@
+{
+  "name": "John Doe",
+  "title": "AI Engineer",
+  "year": 2023,
+  "email": "john.doe@example.com",
+  "description": "AI Engineer and Machine Learning Specialist",
+  "social": {
+    "github": "https://github.com/johndoe",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "twitter": "https://twitter.com/johndoe"
+  }
+}
