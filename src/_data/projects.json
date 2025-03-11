@@ -1,28 +1,26 @@
 [
   {
-    "title": "NeuralVision",
-    "description": "An advanced computer vision system for real-time object detection and classification with 99.3% accuracy using custom transformer architecture.",
-    "tags": ["Computer Vision", "PyTorch", "C++", "CUDA"],
-    "github": "https://github.com/johndoe/neural-vision",
-    "demo": "https://neural-vision-demo.example.com"
+    "title": "LLM-powered Ticket Resolution System",
+    "description": "Developed an advanced system that uses LLMs to analyze and assist in resolving technical support tickets, resulting in a 27% reduction in average ticket closing time.",
+    "tags": ["LangChain", "RAG", "Python", "ChromaDB", "ElasticSearch"],
+    "github": ""
   },
   {
-    "title": "SmartTextAI",
-    "description": "Natural language processing library for semantic text analysis, summarization, and generation using transformer models.",
-    "tags": ["NLP", "TensorFlow", "Python", "Docker"],
-    "github": "https://github.com/johndoe/smarttext-ai"
+    "title": "Developer AI Assistant",
+    "description": "Built a context-aware developer chatbot that integrates with multiple internal knowledge bases using advanced RAG techniques to assist developers with their CI/CD workflows.",
+    "tags": ["LangGraph", "LangChain", "RAG", "Vector Search", "Python"],
+    "github": ""
   },
   {
-    "title": "MLOps Pipeline Framework",
-    "description": "End-to-end framework for automating machine learning workflows from training to deployment with monitoring and versioning.",
-    "tags": ["MLOps", "Kubernetes", "Python", "AWS"],
-    "github": "https://github.com/johndoe/mlops-pipeline",
-    "demo": "https://mlops-docs.example.com"
+    "title": "Agent-based Slack Support Bot",
+    "description": "Created an AI-powered Slack bot utilizing multi-agent architecture to automatically resolve 22% of support requests without human intervention.",
+    "tags": ["Agentic AI", "LangGraph", "LangChain", "Python", "FastAPI"],
+    "github": ""
   },
   {
-    "title": "AI Ethics Toolkit",
-    "description": "Open-source library for evaluating bias, fairness, and transparency in machine learning models.",
-    "tags": ["AI Ethics", "Python", "Visualization", "Jupyter"],
-    "github": "https://github.com/johndoe/ai-ethics-toolkit"
+    "title": "DevOps Analytics Platform",
+    "description": "Engineered a data analytics platform for comparing CI/CD metrics between different DevOps platforms, helping drive the transition from Jenkins to GitHub Actions.",
+    "tags": ["Data Analysis", "Python", "Pandas", "Visualization", "GitHub Actions"],
+    "github": ""
   }
 ]

@@ -1,26 +1,30 @@
 [
   {
+    "title": "AI Engineering",
+    "items": ["LLM-based Applications", "Agentic AI Architecture", "LangChain", "LangGraph", "Advanced RAG Systems", "LLM-reasoning", "Textual Data Analytics", "BERT", "Embedding Models"]
+  },
+  {
     "title": "Programming Languages",
-    "items": ["Python", "JavaScript", "TypeScript", "C++", "SQL", "R"]
+    "items": ["Python", "JavaScript", "C/C++", "Shell Scripting", "HTML", "CSS"]
   },
   {
-    "title": "Machine Learning & AI",
-    "items": ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "ONNX", "Hugging Face", "Computer Vision", "NLP", "Reinforcement Learning"]
+    "title": "Data Science & ML",
+    "items": ["Pandas", "NumPy", "Matplotlib", "PyTorch", "Keras", "Data Analysis"]
   },
   {
-    "title": "Data Science",
-    "items": ["Pandas", "NumPy", "Data Visualization", "Data Analysis", "Statistical Modeling", "Feature Engineering"]
+    "title": "Backend & APIs",
+    "items": ["Django", "Django REST", "Flask", "FastAPI", "RESTful API Design"]
   },
   {
-    "title": "Cloud & DevOps",
-    "items": ["AWS", "GCP", "Docker", "Kubernetes", "CI/CD", "MLOps", "Terraform"]
+    "title": "DevOps & Cloud",
+    "items": ["Docker", "Kubernetes", "Azure", "OpenShift (OCP4)", "Linux", "GitHub Actions", "Jenkins", "CI/CD Workflow"]
   },
   {
-    "title": "Web Development",
-    "items": ["HTML/CSS", "React", "Node.js", "Eleventy", "REST APIs", "GraphQL"]
+    "title": "Databases",
+    "items": ["PostgreSQL", "MongoDB", "ElasticSearch", "ChromaDB", "Redis", "RabbitMQ"]
   },
   {
     "title": "Soft Skills",
-    "items": ["Problem Solving", "Research", "Technical Writing", "Team Leadership", "Project Management", "Communication"]
+    "items": ["Technical Leadership", "Team Management", "Mentoring", "Effective Communication", "Result Oriented", "System Design"]
   }
 ]

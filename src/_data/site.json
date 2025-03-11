@@ -1,12 +1,12 @@
 {
-  "name": "John Doe",
-  "title": "AI Engineer",
+  "name": "Mohammad Navid Masahati",
+  "title": "Technical Lead – AI Engineering",
   "year": 2023,
-  "email": "john.doe@example.com",
-  "description": "AI Engineer and Machine Learning Specialist",
+  "email": "masahati.navid@gmail.com",
+  "description": "AI Engineer and Technical Lead specializing in Large Language Models and System Design",
   "social": {
-    "github": "https://github.com/johndoe",
-    "linkedin": "https://linkedin.com/in/johndoe",
-    "twitter": "https://twitter.com/johndoe"
+    "github": "https://github.com/mnavid",
+    "linkedin": "https://www.linkedin.com/in/mohammad-navid",
+    "email": "masahati.navid@gmail.com"
   }
 }

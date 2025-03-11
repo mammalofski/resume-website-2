@@ -1,22 +1,22 @@
 [
   {
-    "name": "TensorFlow Developer Certificate",
-    "issuer": "Google",
+    "name": "Machine Learning Engineering Specialization",
+    "issuer": "DeepLearning.AI",
+    "date": "2022"
+  },
+  {
+    "name": "Azure AI Engineer Associate",
+    "issuer": "Microsoft",
     "date": "2021"
   },
   {
-    "name": "AWS Certified Machine Learning - Specialty",
-    "issuer": "Amazon Web Services",
+    "name": "Deep Learning Specialization",
+    "issuer": "Coursera (DeepLearning.AI)",
     "date": "2020"
   },
   {
-    "name": "Deep Learning Specialization",
-    "issuer": "Coursera (deeplearning.ai)",
-    "date": "2019"
-  },
-  {
-    "name": "Professional Data Engineer",
-    "issuer": "Google Cloud",
-    "date": "2018"
+    "name": "LangChain & Vector Databases in Production",
+    "issuer": "DeepLearning.AI",
+    "date": "2023"
   }
 ]
